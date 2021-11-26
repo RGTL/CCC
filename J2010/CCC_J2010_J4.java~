@@ -1,0 +1,17 @@
+import java.util.*;
+import java.io.*;
+
+public class CCC_J2010_J4 {
+  
+  
+  
+   public static void main(String args[]) throws IOException {
+       
+    CCC_J2010_J4 j4 = new CCC_J2010_J4();
+    
+    Scanner scan = new Scanner(System.in); 
+    
+   }
+ 
+  
+}
