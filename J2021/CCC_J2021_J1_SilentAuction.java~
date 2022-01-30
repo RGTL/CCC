@@ -1,0 +1,37 @@
+import java.util.*;
+import java.io.*;
+
+public class CCC_J2021_J1_BoilingWater {
+  
+  
+  
+  public int getAtmosPress(int temp) {
+    return 5 * temp - 400;
+    
+  }
+  
+  public int getSeaLevel(int temp) {
+    if (temp==100) return 0;
+    else
+      return (100 > temp) ? 1: -1;
+  }
+  
+  public static void main(String args[]) throws IOException {
+    
+    Scanner scan = new Scanner(System.in);
+    
+    while (true) {
+         System.out.println("What is boiling temperature? (0 to exit)");
+         int temp = Integer.parseInt(scan.next());
+         if (temp == 0) break;
+         
+         CCC_J2021_J1_BoilingWater bw = new CCC_J2021_J1_BoilingWater();
+         System.out.println("Atmospheric Presure: " + bw.getAtmosPress(temp));
+         
+         System.out.println("Sea Level: " + bw.getSeaLevel(temp));
+    }
+    
+  }
+  
+  
+}

@@ -1,0 +1,25 @@
+import java.util.*;
+import java.io.*;
+
+public class Test {
+  
+
+  
+  public static void main(String args[]) throws IOException {
+    
+    //CCC_J2011_J1_Alien j1 = new CCC_J2011_J1_Alien();
+    
+    Scanner scan = new Scanner(System.in); 
+       
+    while (true) {
+         System.out.println("How many antennas?");
+         int ant = Integer.parseInt(scan.next());
+         if (ant == -1) break;
+         System.out.println("How many eyes?");
+         int eye = Integer.parseInt(scan.next());
+         
+         System.out.println(checkSpecies(ant, eye));
+    }
+  }
+  
+}
