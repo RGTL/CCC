@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <drjava version="drjava-20190813-220051">
-  <project autorefresh="false" root="" work="">
+  <project autorefresh="false" build="J2020/" root="J2020/" work="J2020/">
     <createjar file=""/>
-    <source/>
+    <source>
+      <file active="true" name="CCC_J2020_Art.java" package="" timestamp="08-Feb-2022 23:36:45">
+        <select from="514" to="514"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CCC_J2020_DogTreats.java" package="" timestamp="08-Feb-2022 22:54:01">
+        <select from="514" to="514"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="CCC_J2020_Epidemiology.java" package="" timestamp="08-Feb-2022 22:54:01">
+        <select from="514" to="514"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
     <included/>
     <excluded/>
     <collapsed/>

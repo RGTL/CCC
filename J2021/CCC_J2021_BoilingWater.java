@@ -1,18 +1,19 @@
 import java.util.*;
 import java.io.*;
 
-public class CCC_J2021_J1_BoilingWater {
+public class CCC_J2021_BoilingWater {
   
   
   
   public int getAtmosPress(int temp) {
+    return 5 * temp - 400;
     
   }
   
   public int getSeaLevel(int temp) {
     if (temp==100) return 0;
     else
-      return (100 > temp) ? -1: 1;
+      return (100 > temp) ? 1: -1;
   }
   
   public static void main(String args[]) throws IOException {
@@ -23,9 +24,11 @@ public class CCC_J2021_J1_BoilingWater {
          System.out.println("What is boiling temperature? (0 to exit)");
          int temp = Integer.parseInt(scan.next());
          if (temp == 0) break;
-         System.out.println("Atmospheric Presure: " + getAtmosPress(temp));
          
-         System.out.println("Sea Level: " + getASeaLevel(temp));
+         CCC_J2021_BoilingWater bw = new CCC_J2021_BoilingWater();
+         System.out.println("Atmospheric Presure: " + bw.getAtmosPress(temp));
+         
+         System.out.println("Sea Level: " + bw.getSeaLevel(temp));
     }
     
   }

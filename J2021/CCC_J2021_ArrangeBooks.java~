@@ -1,0 +1,49 @@
+import java.util.*;
+import java.io.*;
+
+public class CCC_J2021_ArrangeBooks {
+  
+  
+  public char[] bookOrder;
+  public char[] bookFinal;
+  int pos = 0;
+  
+  public CCC_J2021_ArrangeBooks(char[] bookOrder) {
+    this.bookOrder = bookOrder;
+    bookFinal = new char[bookOrder.length];
+    
+    popuFinal('L');
+    popuFinal('M');
+    popuFinal('S');
+  }
+  
+  public void popuFinal(char book) {
+    for (char c : bookOrder) {
+      if (c==book)
+        bookFinal[pos++] = book;
+    }
+  }
+  
+  public int getMinSwap(){
+
+    return 0;
+
+  }
+    
+  public static void main(String args[]) throws IOException {
+    
+    Scanner scan = new Scanner(System.in);
+    String books = scan.next();
+    
+    CCC_J2021_ArrangeBooks ab = new CCC_J2021_ArrangeBooks(books.toCharArray());
+        
+    System.out.println("###");
+    for (char c : ab.bookFinal)
+      System.out.print(c);
+    
+    System.out.println("\nMininum Swap: " + ab.getMinSwap());    
+    
+  }
+  
+  
+}

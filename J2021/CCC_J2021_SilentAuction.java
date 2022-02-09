@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CCC_J2021_J1_SilentAuction {
+public class CCC_J2021_SilentAuction {
   
   private class Bidder {
     String name;
@@ -39,7 +39,7 @@ public class CCC_J2021_J1_SilentAuction {
   
   public static void main(String args[]) throws IOException {
     
-    CCC_J2021_J1_SilentAuction sa = new CCC_J2021_J1_SilentAuction();
+    CCC_J2021_SilentAuction sa = new CCC_J2021_SilentAuction();
   
     Scanner scan = new Scanner(System.in);
     System.out.println("Number of bids: ");

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class CCC_J2021_J1_SecretInstructions {
+public class CCC_J2021_SecretInstructions {
   
   List<String> instList = new ArrayList<String>();
   String preDir = "";
@@ -22,7 +22,7 @@ public class CCC_J2021_J1_SecretInstructions {
   
   public static void main(String args[]) throws IOException {
     
-    CCC_J2021_J1_SecretInstructions si = new CCC_J2021_J1_SecretInstructions ();
+    CCC_J2021_SecretInstructions si = new CCC_J2021_SecretInstructions ();
   
     Scanner scan = new Scanner(System.in);
     System.out.println("Secret Instructions");
