@@ -30,7 +30,13 @@ public class CCC_J2021_SilentAuction {
     }
     return topBidder;    
   }
-
+  
+  public int getSeaLevel(int temp) {
+    if (temp==100) return 0;
+    else
+      return (100 > temp) ? 1: -1;
+  }
+  
   public static void main(String args[]) throws IOException {
     
     CCC_J2021_SilentAuction sa = new CCC_J2021_SilentAuction();

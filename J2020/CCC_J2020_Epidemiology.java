@@ -3,10 +3,6 @@ import java.io.*;
 
 public class CCC_J2020_Epidemiology {
   
-  public boolean isHappy(int s, int m, int l) {
-    return (s+m*2 + l*3) >=10;
-  }
-  
   public int getDays(int p, int n, int r) {
     int days = 0;
     int totalCase = n;
