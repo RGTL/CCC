@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+
+public class J2022_SquarePool {
+  
+  
+  
+  public static void main(String[] args) throws Exception {
+    
+  }
+  
+}

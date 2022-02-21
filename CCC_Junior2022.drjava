@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="J2022/" main="" root="J2022/" work="J2022/">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="J2022_SquarePool.java" package="" timestamp="20-Feb-2022 17:15:51">
+        <select from="843" to="843"/>
+        <scroll column="194" row="0"/>
+      </file>
+      <file name="J2022_GoodGroups.java" package="" timestamp="20-Feb-2022 14:22:20">
+        <select from="843" to="843"/>
+        <scroll column="194" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints>
+      <breakpoint enabled="true" file="J2022_SquarePool.java" line="9"/>
+      <breakpoint enabled="true" file="J2022_SquarePool.java" line="34"/>
+    </breakpoints>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
